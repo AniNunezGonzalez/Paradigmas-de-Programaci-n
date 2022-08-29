@@ -1,0 +1,13 @@
+1) Entrar a Ubuntu
+2) Cambiar de usuario a "soporte"
+	Password: udiesfmipn1936
+3) sudo apt-get update
+4) sudo apt-get upgrade
+5) sudo apt-get install git
+
+En casdo de no poder instalar, ejecutar los siguientes comandos:
+1) sudo killall dpkg
+2) sudo rm /var/lib/dpkg/lock
+
+Para verificar que se instalo correctamente se ocupa el comando
+	git
